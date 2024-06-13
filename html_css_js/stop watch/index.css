@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(55, 52, 50);
+}
+
+#mywatch{
+    font-size: 4rem;
+    font-family: "Arial", 'sans-serif';
+    color: rgb(7, 70, 129);
+     
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(214, 107, 107);
+    text-shadow: 2px 2px 2px rgb(20, 19, 17);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.6rem ;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+
+}
+
+#startbtn{
+    background-color: rgb(46, 209, 46);
+}
+#startbtn:hover{
+    background-color: rgb(24, 117, 24);
+}
+
+#stopbtn{
+    background-color: red;
+}
+#stopbtn:hover{
+    background-color: rgb(130, 40, 40);
+}
+
+#Resetbtn{
+    background-color: blue;
+}
+
+#Resetbtn:hover{
+    background-color: rgb(32, 32, 133);
+}
+
+#change-btn{
+    background-color: blueviolet;
+}
+
+#change-btn:hover{
+    background-color: rgb(89, 25, 149);
+}

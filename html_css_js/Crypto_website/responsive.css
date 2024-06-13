@@ -1,0 +1,50 @@
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+
+    }
+
+    .carousel-caption{
+        bottom: 265px;
+    }
+
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+
+    .carousel-captiona{
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width:767px) and (max-width:991px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .carousel-caption{
+        bottom: 360px;
+    }
+
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p{
+        width: 100%;
+        line-height: 2.4;
+        font-size: 16px;
+    }
+
+}
