@@ -1,0 +1,91 @@
+*{
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(231, 210, 168);
+    height: 100%;
+    
+}
+
+nav{
+    background:rgb(206, 213, 178) ;
+}
+
+.section-padding{
+    padding: 100px 0px;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 200px;
+    z-index: 5;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+
+.navbar{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+ 
+
+#project img{
+    height: 255px;
+    
+}
+
+
+
+.info-wrap h3{
+    color: white;
+
+}
+
+.info-wrap .contact-text p{
+    color:white;
+    font-size: 16px;
+}
+.info-wrap .contact-text p span{
+    color:white;
+    font-size: 18px;
+}
+
+.conatct-icon{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+}
+
+.contact-wrap{
+    background: white;
+    border-radius: 25px;
+}

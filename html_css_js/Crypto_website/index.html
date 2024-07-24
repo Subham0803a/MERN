@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Practise</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="text-warning">Crypto</span>currency </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li style="width: 1px; height: 18px; color: black; background-color: black; margin-top:10px"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">About Us</a>
+                    </li>
+                    <li style="width: 1px; height: 18px; color: black; background-color: black; margin-top:10px"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li style="width: 1px; height: 18px; color: black; background-color: black; margin-top:10px"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li style="width: 1px; height: 18px; color: black; background-color: black; margin-top:10px"></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li style="width: 1px; height: 18px; color: black; background-color: black; margin-top:10px"></li>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1640161704729-cbe966a08476?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h5>Bitcoin</h5>
+                    <p>Bitcoin is a form of digital currency that uses blockchain technology to support transactions between users on a decentralized network. New Bitcoins are created as part of the mining process, as a reward to people whose computer systems help validate transactions. Buying Bitcoin exposes you to a volatile asset class
+                    </p>
+                    <p><a href="" class="btn btn-danger">Learn More</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1626162987518-4fee900a9323?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h5>Etherium</h5>
+                    <p>Ethereum is a decentralized blockchain platform that establishes a peer-to-peer network that securely executes and verifies application code, called smart contracts. Smart contracts allow participants to transact with each other without a trusted central authority
+                    </p>
+                    <p><a href="" class="btn btn-danger">Learn More</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://miro.medium.com/v2/resize:fit:1358/0*NCj4gvdr5qU65Ac2" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h5>Solana</h5>
+                    <p>Solana (SOL) is a high-performance blockchain platform aiming for fast and low-cost transactions. SOL token is used for network operations, governance, and staking on the Solana ecosystem.
+                    </p>
+                    <p><a href="" class="btn btn-danger">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="about-section" class="section-padding">
+        <h1 class="text-center"> </h1>
+
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-lg-4 col-md-12 col-12 ">
+                    <div class="about-img">
+                        <img src="https://images.unsplash.com/photo-1629339942248-45d4b10c8c2f?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="" class="img-fluid">
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-4 ">
+                    <div class="about-text">
+                        <h2>Forex Trading</h2>
+                        <p>The forex is a global marketplace for exchanging national currencies. Foreign exchange venues comprise the largest securities market in the world by nominal value, with trillions of dollars changing hands each day. Foreign exchange trading uses currency pairs, priced in terms of one versus the other</p>
+                        <div class="text-center">
+                            <a href="" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12 order-lg-2">
+                    <div class="about-img">
+                        <img src="https://m.media-amazon.com/images/I/71Gn4fY8YrL.jpg" alt="" srcset="" class="img-fluid">
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-4 order-lg-1">
+                    <div class="about-text">
+                        <h2>Crypto Mining</h2>
+                        <p>Bitcoin runs on a decentralized computer network or distributed ledger that tracks transactions in the cryptocurrency. When computers on the network verify and process transactions, new bitcoins are created, or mined. These networked computers, or miners, process the transaction in exchange for a payment in Bitcoin</p>
+                        <div class="text-center">
+                            <a href="" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2 class="text-uppercase">Our Services</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12 my-1">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <i   style="font-size: 30px;">COINBASE</i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase"></h5>
+                            <p class="card-text">Coinbase Global, Inc., branded Coinbase, is an American publicly traded company that operates a cryptocurrency exchange platform.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 my-1">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <i  style="font-size: 30px;">BINANACE</i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase"> </h5>
+                            <p class="card-text">Binance Holdings Ltd., branded Binance, is a global company that operates the largest cryptocurrency exchange flatform </p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 my-1">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <i  style="font-size: 30px;">COIN DCX</i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase"></h5>
+                            <p class="card-text">CoinDCX is a popular cryptocurrency exchange in India that is known for its user-friendly interface, low fees, and  available for trading flatform</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="project" class="section-padding">
+        <div class="container">
+            <div class="text-center col-md-12 pb-5">
+                <h2 class="text-uppercase">Products</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12 my-1 ">
+                    <div class="card text-white text-center bg-dark pb-2">
+
+                        <img src="https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">NFTs</h5>
+                            <p class="card-text">Non-fungible tokens (NFTs) are assets that have been tokenized via a blockchain. Tokens are unique identification codes created from metadata via an encryption function. These tokens are then stored on a blockchain, while the assets themselves are stored in other places</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">BUY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 my-1 ">
+                    <div class="card text-white text-center bg-dark pb-2">
+
+                        <img src="https://blog.thirdweb.com/content/images/size/w1200/2023/06/What-is-EIP-4844--Proto-Danksharding-Explained.png" Wclass="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">EIP-4895</h5>
+                            <p class="card-text">This EIP provides a way for validator withdrawals made on the beacon chain to enter into the EVM. The architecture is "push"-based, rather than "pull"-based, where withdrawals are required to be processed in the execution layer as soon as they are dequeued from the consensus layer for better protection</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">BUY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12  my-1">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <img src="https://images.prismic.io/argentwebsite/09534720-9cce-46a0-ae23-67aa2899bf1b_1.5-what-is-a-dapp-.jpg?auto=format%2Ccompress&fit=max&q=50&w=1440" class="card-img-top img-fluid" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">dApps</h5>
+                            <p class="card-text">ecentralized applications, or dApps, are software programs that run on a blockchain or peer-to-peer (P2P) network of computers instead of on a single computer. Rather than operating under the control of a single authority, dApps are spread across the network to be collectively controlled by its users</p>
+                            <a href="#" class="btn btn-primary">BUY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="section-padding "
+        style="background: url('https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;">
+
+        <div class="container ">
+            <div class="row justify-content-center">
+                <h2 class="col-md-6 text-center mb-5" style="color: rgb(255, 252, 252);">CONTACT INFO</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    
+                        <div class="row justify-content-between">
+                            <div class="col-lg-6 d-flex align-items-stretch">
+                                <div class="info-wrap w-100 p-5">
+                                    <h3 class="mb-4 text-center">Contact Us</h3>
+                                    <div class="dbox d-flex align-items-start w-100 mb-1 ">
+                                        <div class="conatct-icon d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-geo-alt-fill mx-2"></i>
+                                        </div>
+                                        <div class="contact-text pl-4">
+                                            <p>
+                                                <span>ADDRESS :-</span><br>
+                                                198 stree , california western california NY 10086
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox d-flex align-items-start w-100 mb-1 ">
+                                        <div class="conatct-icon d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-telephone-fill mx-2"></i>
+                                        </div>
+                                        <div class="contact-text pl-4">
+                                            <p>
+                                                <span>PHONE :-</span><br>
+                                                +91 7008857139
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox d-flex align-items-start w-100 mb-1 ">
+                                        <div class="conatct-icon d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-telegram mx-2"></i>
+                                        </div>
+                                        <div class="contact-text pl-4">
+                                            <p>
+                                                <span>EMAIL :-</span><br>
+                                                 subhampratap0@gmail.com
+
+                                        </div>
+                                    </div>
+                                    <div class="dbox d-flex align-items-start w-100 mb-1 ">
+                                        <div class="conatct-icon d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-globe-central-south-asia mx-2"></i>
+                                        </div>
+                                        <div class="contact-text pl-4">
+                                            <p>
+                                                <span>WEBSITE :-</span><br>
+                                                  cryptocurrency.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+                                <div class="contact-wrap w-100 p-md-5 p-4" style="background: white;">
+                                    <h3 class="mb-4 text-center">Get in touch</h3>
+                                    <div id="form-message-warning" class="mb-4"></div>
+                                    <form method="POST" id="contactForm" name="contactForm" novalidate="novalidate">
+                                        <div class="row">
+                                            <div class="col-md-12 my-1">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Name" fdprocessedid="rsp5pg">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 my-1">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" id="email"
+                                                        placeholder="Email" fdprocessedid="izo6o">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 my-1">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="subject" id="subject"
+                                                        placeholder="Subject" fdprocessedid="3f0hb">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 my-1">
+                                                <div class="form-group">
+                                                    <textarea name="message" class="form-control" id="message" cols="30"
+                                                        rows="5" placeholder="Your Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 my-1">
+                                                <div class="form-group text-center">
+                                                    <button type="submit" class="btn btn-dark">Submit</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+
+
+    </section>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</html>
