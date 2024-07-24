@@ -1,0 +1,92 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+h1 {
+    color: steelblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input[type="text"],
+.form-control input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.task {
+    background-color: #f9f9f9;
+    border-left: 5px solid transparent;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task.reminder {
+    border-left-color: green;
+}
+
+.task h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
